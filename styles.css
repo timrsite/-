@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.product-image img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-details {
+    margin-left: 20px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 16px;
+}
+
+.price-bold {
+    font-weight: bold;
+}
+
+.product-country {
+    font-size: 16px;
+}
+
+.product-rating {
+    font-size: 16px;
+    color: #FFD700; /* Цвет звездочек рейтинга */
+}
